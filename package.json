@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "module": "src/server.ts",
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start:server": "bun run --watch src/server.ts"
+  },
+  "type": "module"
+}
