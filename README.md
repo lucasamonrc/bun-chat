@@ -1,4 +1,4 @@
-# chat
+# Bun chat
 
 To install dependencies:
 
@@ -9,7 +9,19 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run start
 ```
 
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To start testing this locally:
+
+```sh
+telnet localhost 8080
+```
+
+List of commands:
+
+```sh
+- /join <room_name>: join or create a chat room
+- /leave: leave current chat room
+- /list: list all chat rooms
+```
